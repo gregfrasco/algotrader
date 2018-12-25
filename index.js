@@ -7,7 +7,8 @@ module.exports = {
 		Order: require('./objects/broker/robinhood/Order'),
 		Portfolio: require('./objects/broker/robinhood/Portfolio'),
 		OptionOrder: require('./objects/broker/robinhood/OptionOrder'),
-		OptionInstrument: require('./objects/broker/robinhood/OptionInstrument')
+		OptionInstrument: require('./objects/broker/robinhood/OptionInstrument'),
+		Crypto: require('./objects/broker/robinhood/Crypto')
 	},
 	Data: {
 		Stream: require('./objects/data/Stream'),
